@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-12</title>
+</head>
+
+<body>
+    <h1>Assignment-12</h1>
+    <script>
+
+        //====111111
+        var number = 4.4578
+        var round =Math.round(number)
+        var floor =Math.floor(number)
+        var ceil=Math.ceil(number)
+        document.write("(1) :<br> Number : "+number+"<br> Round Value : "+round+"<br> Floor value : "+floor+"<br> ceil value : "+ceil)
+
+
+        //=====2222
+
+        var number = -4.6758
+        var round =Math.round(number)
+        var floor =Math.floor(number)
+        var ceil=Math.ceil(number)
+        document.write("<br><br>(2) :<br> Number : "+number+"<br> Round Value : "+round+"<br> Floor value : "+floor+"<br> ceil value : "+ceil)
+
+
+        //=====33333
+        
+        var num = -4
+        var absolute =Math.abs(num)
+
+        document.write("<br><br>(3) :<br> The Absolut value of : "+num+" is "+absolute)
+
+
+
+        //====4444
+
+        var ranndom= Math.floor(Math.random()*7);
+        document.write("<br><br>(4) :<br>Random Dice Value :"+ranndom)
+        var ranndom= Math.floor(Math.random()*7);
+        document.write("<br>Random Dice Value :"+ranndom)
+
+
+        //======5555
+
+        var a = Math.floor(Math.random()*2+1);
+        var b = a
+        if(b==1){
+            document.write("<br><br>(5) :<br>1 <br> random coin value :  Heads")
+        }else{
+            document.write("<br>2 <br> random coin value :Tails")
+        }
+        var a = Math.floor(Math.random()*2+2);
+        var b = a
+        if(b==2){
+            document.write("<br>2 <br> random coin value :Tails")
+        }
+
+
+        //======66666
+
+        var between = Math.floor(Math.random()*100+1)
+        document.write("<br><br>(6) :<br>Random number between 1 and 100 :<b>"+between+"</b>")
+
+            ///7777777??????
+
+            // var weight = prompt("Enter your weight in kilograms","50kgs")
+            // var w= ["50kgs"]
+            // var pro= Math.random(weight.slice(0,5))*60
+
+            // alert(pro.toFixed(2))
+           
+
+        //===8888
+
+
+        var input = prompt("(8) : Enter a Number between 1 and 10")
+        var secret= Math.floor(Math.random()*10)
+        if(input==secret){
+            alert("Congratulation")
+        }else{
+            alert("Try again")
+        }
+        
+
+
+        
+
+
+
+        
+    </script>
+</body>
+
+</html>
